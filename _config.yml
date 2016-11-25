@@ -1,5 +1,5 @@
 ---
-title: Your awesome title
+title: IAMF
 timezone: UTC
 collections:
   advisory-board:
@@ -56,8 +56,8 @@ defaults:
     external_url: ''
 email: your-email@domain.com
 description: "\n"
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
