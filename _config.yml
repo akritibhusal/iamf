@@ -50,7 +50,7 @@ defaults:
     type: events
   values:
     title: ''
-    photo: ''
+    image: ''
     eventdate: ''
     venue: ''
 email: your-email@domain.com

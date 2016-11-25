@@ -1,7 +1,7 @@
 ---
 title: Masters of Tomorrow
 date: 2016-11-25 09:57:00 Z
-photo: "/uploads/mot.png"
+image: "/uploads/mot.png"
 eventdate: November 30, 2016
 venue: LAB Miami
 ---
