@@ -8,7 +8,7 @@ collections:
   board-of-overseers:
     title: Board of Overseers
     output: true
-  event:
+  events:
     title: Events
     output: true
   iamf-details:
