@@ -44,7 +44,9 @@ layout: default
 
 				<h3 class="bold capitalize">Board of Overseers</h3>
 				
-				<p><span class="bold"> member.title ,</span> member.designation ,  member.company  member.location</p>
+				{% for member in site.board-of-overseers %}
+				<p><span class="bold"> {{ member.title }},</span>  {{ member.designation }}, {{ member.company }},  {{ member.location }} </p>
+				{% endfor %}
 				
 			</div>
 		</div>
