@@ -1,6 +1,7 @@
 ---
 title: Fellowship
 date: 2016-11-25 11:48:00 Z
+layout: default
 ---
 
 We provide fellowship to the deserving designers, please contact us further to know more.
