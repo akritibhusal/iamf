@@ -9,31 +9,20 @@ layout: default
 			<div class="row">
 				<div class="medium-10 small-12 column">
 					<div class="medium-10 small-12 column">
-						
+
 						{% for event in site.events %}
 						<a href="{{ event.event_url }}"><div class="future-content">
 							<h2 class="bold capitalize margin-bottom">{{ event.title }}</h2>
 							<img src="{{ event.image }}" class="margin-bottom" alt="event">
 							<p class="bold">{{ event.eventdate }}, {{ event.venue }}</p>
-							<p>{{ content }}</p>
+							<p>{{ event.content }}</p>
 						</div></a>
 						{% endfor %}
 						<!-- Horizontal Line -->
 						<div class="horizontal-line"></div>
-
 					</div>
-
-					<!-- Horizontal Line -->
-					<div class="horizontal-line"></div>
-
-				</div>
-
-				<div class="side-menu gray medium-2 column bold capitalize">
-					<p class="past">Past Events</p>
-					<p class="future">Future Events</p>
 				</div>
 			</div>
-
 		</div>
 	</div>
 </section>
