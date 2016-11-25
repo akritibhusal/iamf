@@ -2,6 +2,9 @@
 title: Your awesome title
 timezone: UTC
 collections:
+  iamf-details:
+    title: IAMF Details
+    output: true
   posts:
     title: Posts
     output: true
