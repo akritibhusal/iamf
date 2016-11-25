@@ -7,5 +7,5 @@ venue: The Idea Center, 315 NE 2nd Ave, Miami, FL 33132, USA
 external_url: http://theideacenter.co/
 ---
 
-Definition of ideation: the capacity for or the act of forming or entertaining ideas
+Definition of Ideation: the capacity for or the act of forming or entertaining ideas
 Franco Lodato, President, Miami College of Design
