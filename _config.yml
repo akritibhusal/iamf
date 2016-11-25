@@ -35,6 +35,13 @@ defaults:
     designation: ''
     company: ''
     location: ''
+- scope:
+    path: ''
+    type: board-of-overseers
+  values:
+    designation: ''
+    company: ''
+    location: ''
 email: your-email@domain.com
 description: "\n"
 baseurl: ''
