@@ -2,6 +2,9 @@
 title: Your awesome title
 timezone: UTC
 collections:
+  advisory-board:
+    title: Advisory Board
+    output: true
   iamf-details:
     title: IAMF Details
     output: true
