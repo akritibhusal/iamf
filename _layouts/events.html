@@ -10,11 +10,11 @@ layout: default
 				<div class="medium-10 small-12 column">
 					<div class="medium-10 small-12 column">
 						
-						{% for event in site.event %}
+						{% for event in site.events %}
 						<a href="{{ event.event_url }}"><div class="future-content">
 							<h2 class="bold capitalize margin-bottom">{{ event.title }}</h2>
 							<img class="margin-bottom" src="{{ event.image }}" alt="">
-							<p class="bold">{{ event.event_date }}, {{ event.venue }}</p>
+							<p class="bold">{{ event.eventdate }}, {{ event.venue }}</p>
 							<p>{{ content }}</p>
 						</div></a>
 						{% endfor %}
