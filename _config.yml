@@ -47,11 +47,11 @@ defaults:
     location: ''
 - scope:
     path: ''
-    type: event
+    type: events
   values:
     title: ''
     photo: ''
-    event_date: ''
+    eventdate: ''
     venue: ''
 email: your-email@domain.com
 description: "\n"
