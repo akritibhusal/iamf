@@ -8,7 +8,7 @@ layout: about
 
 We chose the phrase “industrial arts and method” to capture the essence of a unique design process utilized at schools supported by the Foundation. Specifically, we take inputs from both industry and the arts and apply a design methodology to elicit both far-reaching idea generation and tangible solutions. Linus Torvalds, the inventor of Linux, said,
 
-    “Almost anybody can have an idea… Getting things actually done is where people stumble.”
+> Almost anybody can have an idea… Getting things actually done is where people stumble.
 
 The IAM method takes the practitioner beyond ideas to their realization in successful products. It achieves a balance between the non-incremental innovations that improve the efficiency of what we already do and help us go further (and faster) in the directions we are already heading; and enable us together to go to new, unexpected places, where we will find disruptions and, consequently, opportunities.
 
