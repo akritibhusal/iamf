@@ -35,9 +35,9 @@ layout: default
 
 			<div class="advisor-content">
 				<h3 class="bold capitalize">Advisory Board</h3>
-				
-				<p><span class="bold"> member.title ,</span>  member.designation ,  member.company ,  member.location </p>
-				
+				{% for member in site.advisory-board %}
+				<p><span class="bold"> {{ member.title }},</span>  {{ member.designation }}, {{ member.company }},  {{ member.location }} </p>
+				{% endfor %}
 
 				<div class="horizontal-line"></div>
 

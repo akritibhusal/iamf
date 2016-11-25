@@ -25,6 +25,13 @@ defaults:
     designation: ''
     image: ''
     profile_url: ''
+- scope:
+    path: ''
+    type: advisory-board
+  values:
+    designation: ''
+    company: ''
+    location: ''
 email: your-email@domain.com
 description: "\n"
 baseurl: ''
