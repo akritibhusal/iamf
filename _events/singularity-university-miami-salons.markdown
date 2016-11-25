@@ -4,6 +4,7 @@ date: 2016-11-25 10:45:00 Z
 image: "/uploads/singularity.png"
 eventdate: October 19th, 2016, 7:00PM
 venue: Miami Theatre Center
+external_url: http://www.singularityumiamisalon.com/
 ---
 
 THE UNIVERSITY, a documentary by Matt Rutherford
