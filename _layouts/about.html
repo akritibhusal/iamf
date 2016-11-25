@@ -33,28 +33,28 @@ layout: default
 			<div class="horizontal-line"></div>
 
 
-			<div class="advisor-content">
-				<h3 class="bold capitalize">Advisory Board</h3>
-				{% for member in site.advisory-board %}
-				<p><span class="bold"> {{ member.title }},</span>  {{ member.designation }}, {{ member.company }},  {{ member.location }} </p>
-				{% endfor %}
-
-				<div class="horizontal-line"></div>
-
-
-				<h3 class="bold capitalize">Board of Overseers</h3>
+			<a href="#" id="advisors"><div class="advisor-content">
+					<h3 class="bold capitalize">Advisory Board</h3>
+					{% for member in site.advisory-board %}
+					<p><span class="bold"> {{ member.title }},</span>  {{ member.designation }}, {{ member.company }},  {{ member.location }} </p>
+					{% endfor %}
 				
-				{% for member in site.board-of-overseers %}
-				<p><span class="bold"> {{ member.title }},</span>  {{ member.designation }}, {{ member.company }},  {{ member.location }} </p>
-				{% endfor %}
+					<div class="horizontal-line"></div>
 				
-			</div>
+				
+					<h3 class="bold capitalize">Board of Overseers</h3>
+					
+					{% for member in site.board-of-overseers %}
+					<p><span class="bold"> {{ member.title }},</span>  {{ member.designation }}, {{ member.company }},  {{ member.location }} </p>
+					{% endfor %}
+					
+				</div></a>
 		</div>
 		<div class="large-2 medium-2 column">
 			<div class="side-menu gray bold capitalize">
-				<p class="method">Our Methodology</p>
-				<p class="team">Our Team</p>
-				<p class="advisor">Our Advisors</p>
+				<a href="{{ site.url }}/about.html"><p class="method">Our Methodology</p></a>
+				<a href="{{ site.url }}/about.html#team"><p class="team">Our Team</p></a>
+				<a href="{{ site.url }}/about.html#advisors"><p class="advisor">Our Advisors</p></a>
 			</div>
 		</div>
 	</div>
