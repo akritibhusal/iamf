@@ -53,6 +53,7 @@ defaults:
     image: ''
     eventdate: ''
     venue: ''
+    external_url: ''
 email: your-email@domain.com
 description: "\n"
 baseurl: ''
