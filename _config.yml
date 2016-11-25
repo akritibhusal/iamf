@@ -5,6 +5,9 @@ collections:
   advisory-board:
     title: Advisory Board
     output: true
+  board-of-overseers:
+    title: Board of Overseers
+    output: true
   iamf-details:
     title: IAMF Details
     output: true
