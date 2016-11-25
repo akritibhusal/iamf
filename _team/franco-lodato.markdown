@@ -6,3 +6,4 @@ image: "/uploads/lodato.png"
 profile_url: https://en.wikipedia.org/wiki/Franco_Lodato
 ---
 
+Franco Lodato is a renowned industrial designer for Motorola, Ferrari, Herman Miller, Pininfarina and other global enterprises. He is also the founder and principal of iBionics design consultancy.
