@@ -9,7 +9,7 @@ collections:
     title: Board of Overseers
     output: true
   event:
-    title: Event
+    title: Events
     output: true
   iamf-details:
     title: IAMF Details
