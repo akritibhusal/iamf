@@ -48,9 +48,11 @@ layout: default
       <div class="row">
         <div class="medium-8 small-12 column">
           <h1 class="bold capitalize margin-bottom">Information</h1>
-          <h5 class="no-margin"><i class="fa fa-map-marker margin-right" aria-hidden="true"></i>848 Brickell Ave #1005, Miami, FL 33131</h5>
-          <h5 class="no-margin"><i class="fa fa-phone margin-right" aria-hidden="true"></i>T. +1 (800) 848-0398</h5>
-          <h5 class="no-margin "><i class="fa fa-envelope margin-right" aria-hidden="true"></i>info@iamfoundation.org</h5>
+          {% for item in site.iamf-details %}
+          <h5 class="no-margin"><i class="fa fa-map-marker margin-right" aria-hidden="true"></i>{{ item.address }}</h5>
+          <h5 class="no-margin"><i class="fa fa-phone margin-right" aria-hidden="true"></i>T. {{ item.phone_number }}</h5>
+          <h5 class="no-margin "><i class="fa fa-envelope margin-right" aria-hidden="true"></i>{{ item.email }}</h5>
+          {% endfor %}
           <div class="margin-bottom"></div>
           <div id="map"></div>
         </div>
