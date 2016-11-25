@@ -1,4 +1,5 @@
 <footer>
+{% for item in site.iamf-details %}
   <div class="row text-center">
     <div class="large-2 medium-4 small-12 column large-offset-6">
       <p class="bold capitalize">I am involved</p>
@@ -14,23 +15,25 @@
     <div class="large-2 medium-4 small-12 column">
       <p class="bold capitalize">I am connected</p>
       <p class="social">
-        <a href=""><i class="fa fa-twitter"></i></a>
-        <a href=""><i class="fa fa-facebook"></i></a>
-        <a href=""><i class="fa fa-github"></i></a>
+        <a href="{{ item.twitter_url }}"><i class="fa fa-twitter"></i></a>
+        <a href="{{ item.facebook_url }}"><i class="fa fa-facebook"></i></a>
+        <a href="{{ item.github_url }}"><i class="fa fa-github"></i></a>
       </p>
     </div>
   </div>
   <!-- Horizontal dashed line -->
   <div class="row horizontal-line"></div>
+  
   <div class="row copyright-align">
     <div class="large-4 medium-4 small-12 column">
       <p class="bold">&copy; 2016 IAM Foundation</p>
     </div>
     <div class="large-8 medium-8 small-12 column text-right">
-      <p class="copyright-info bold"><span class="fa fa-phone margin-right"></span>dkjkdj</p>
-      <p class="copyright-info bold"><span class="fa fa-envelope margin-right"></span>fhjfdh</p>
+      <p class="copyright-info bold"><span class="fa fa-phone margin-right"></span>{{ item.phone_number }}</p>
+      <p class="copyright-info bold"><span class="fa fa-envelope margin-right"></span>{{ item.email }}</p>
     </div>
   </div>
+  {% endfor %}
 
 </footer>
 
