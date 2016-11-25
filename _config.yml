@@ -45,6 +45,15 @@ defaults:
     designation: ''
     company: ''
     location: ''
+- scope:
+    path: ''
+    type: event
+  values:
+    title: ''
+    photo: ''
+    event_date: ''
+    venue: ''
+    short_description: ''
 email: your-email@domain.com
 description: "\n"
 baseurl: ''
