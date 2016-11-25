@@ -12,7 +12,7 @@ We chose the phrase “industrial arts and method” to capture the essence of a
 
 The IAM method takes the practitioner beyond ideas to their realization in successful products. It achieves a balance between the non-incremental innovations that improve the efficiency of what we already do and help us go further (and faster) in the directions we are already heading; and enable us together to go to new, unexpected places, where we will find disruptions and, consequently, opportunities.
 
-### ** *WATER & ICE* **
+### ***WATER & ICE***
 
 MIT Sloan School Professor Charles Fine uses a metaphor of the phase transition between water and ice to describe innovation. Water is fluid, representing the breadth and freedom of exploration necessary for creativity and invention; Ice is solid, representing the depth and structure necessary to transform an invention into production. Innovation occurs in a “liquid” phase; industrial consolidation of innovation is “solid.”
 
