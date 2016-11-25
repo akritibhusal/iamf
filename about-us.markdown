@@ -4,7 +4,7 @@ date: 2016-11-25 08:12:00 Z
 layout: about
 ---
 
-## **INDUSTRIAL ARTS & METHOD**
+### **INDUSTRIAL ARTS & METHOD**
 
 We chose the phrase “industrial arts and method” to capture the essence of a unique design process utilized at schools supported by the Foundation. Specifically, we take inputs from both industry and the arts and apply a design methodology to elicit both far-reaching idea generation and tangible solutions. Linus Torvalds, the inventor of Linux, said,
 
