@@ -14,6 +14,15 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+  -
+    scope:
+      path: ""
+      type: "team"
+    values:
+      designation: ""
+      image: ""
+      profile_url: ""
 email: your-email@domain.com
 description: "\n"
 baseurl: ''

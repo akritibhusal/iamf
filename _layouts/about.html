@@ -8,7 +8,6 @@ layout: default
 		<div class="large-10 medium-10 small-12 column">
 			<div class="method-content">
 				<h1 class="bold capitalize margin-bottom">{{ page.title }}</h1>
-				<h2 class="bold capitalize">Industrial Arts &amp; Method</h2>
 				{{ content }}            
 			</div>
 			<div class="horizontal-line"></div>
@@ -17,16 +16,16 @@ layout: default
 			<a href="#" id="team"><div class="team-content">
 					<h1 class="bold capitalize margin-bottom">Our Team</h1>
 					<div class="row medium-up-3 large-up-3">
-						
+						{% for member in site.team %}
 						<div class="column">
-							<a href="sdsds">
-								<h1 class="bold capitalize team-members">a</h1>
-								<img src="sas" alt="bender">
-								<h3 class="bold capitalize">dsds</h3>
-								<p>sdsdsd</p>
+							<a href="{{ member.profile_url }}">
+								<h1 class="bold capitalize team-members">{{ member.title }}</h1>
+								<img src="{{ member.image }}" alt="bender">
+								<h3 class="bold capitalize">{{ member.designation }}</h3>
+								<p>{{ member.content }}</p>
 							</a>
 						</div>
-											
+						{% endfor %}					
 					</div>
 				</div></a>
 
