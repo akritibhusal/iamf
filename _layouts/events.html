@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<section class="event">
+	<div class="row">
+		<div class="medium-10 small-12 column">
+
+			<div class="row">
+				<div class="medium-10 small-12 column">
+					<div class="medium-10 small-12 column">
+						
+						
+						<a href="{{ event.event_url }}"><div class="future-content">
+							<h2 class="bold capitalize margin-bottom">{{ event.title }}</h2>
+							<img class="margin-bottom" src="{{ event.image }}" alt="">
+							<p class="bold">{{ event.date }}, {{ event.venue }}</p>
+							<p>{{ content }}</p>
+						</div></a>
+						
+						<!-- Horizontal Line -->
+						<div class="horizontal-line"></div>
+
+					</div>
+
+					<!-- Horizontal Line -->
+					<div class="horizontal-line"></div>
+
+				</div>
+
+				<div class="side-menu gray medium-2 column bold capitalize">
+					<p class="past">Past Events</p>
+					<p class="future">Future Events</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
