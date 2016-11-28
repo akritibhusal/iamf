@@ -191,6 +191,25 @@ header {
     .intro h2 {
       font-size: 20px; } }
 
+.default_page {
+  padding: 70px 0; }
+  .about .margin-bottom {
+    margin-bottom: 30px; }
+  .about h1.team-members {
+    line-height: 1;
+    margin-bottom: 15px; }
+  .about img {
+    margin-bottom: 15px; }
+  .about .horizontal-line {
+    margin: 40px 0;
+    border-top: 1px solid #000; }
+  
+  @media screen and (max-width: 39.9375em) {
+    .about .method-content h1, .about h2, .about .team-content h1, .about h2, .about h3 {
+      font-size: 20px; }
+    .about .side-menu {
+      display: none; } }
+
 .about {
   padding: 70px 0;
   background: url("../images/wheelchair1.png");

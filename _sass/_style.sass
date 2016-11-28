@@ -210,6 +210,28 @@ header
       font-size: 20px
 
 
+
+.default_page
+  padding: 70px 0
+  
+  .margin-bottom
+    margin-bottom: 30px
+  h1
+    &.team-members
+      line-height: 1
+      margin-bottom: 15px
+  img
+    margin-bottom: 15px
+  .horizontal-line
+    margin: 40px 0
+    border-top: 1px solid #000
+  
+  @include breakpoint ( small only )
+    .method-content h1,h2, .team-content h1,h2,h3
+      font-size: 20px
+    .side-menu
+      display: none
+
 // About Page
 
 
