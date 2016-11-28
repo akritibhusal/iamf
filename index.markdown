@@ -1,6 +1,7 @@
 ---
 title: Home
 date: 2016-11-28 04:45:00 Z
+layout: home
 ---
 
 The Industrial Arts and Method Foundation (IAMF) is a Florida-based foundation that promotes innovation in industrial design education and provides scholarships to cover tuition and related expenses to students enrolled in programs for industrial design.
