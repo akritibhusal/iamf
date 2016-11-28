@@ -1,0 +1,26 @@
+{% assign url_parts = page.url | split: '/' %}
+{% assign url_parts_size = url_parts | size %}
+{% assign rm = url_parts | last %}
+{% assign base_url = page.url | replace: rm %}
+
+<nav>
+	<div class="large-10 medium-10 column text-center main-menu">
+		<ul>
+		{% for node in site.pages %}
+
+		  {% if node.url contains base_url %}
+		    {% assign node_url_parts = node.url | split: '/' %}
+		    {% assign node_url_parts_size = node_url_parts | size %}
+		    {% assign filename = node_url_parts | last %}
+		    {% if url_parts_size == node_url_parts_size and node.title %}
+		      <li class="bold capitalize"><a href='{{node.url}}'>{{node.title}}</a></li>
+		      {{node_url_parts_size}}
+		    {% endif %}
+		  {% endif %}
+		{% endfor %}
+
+		
+
+		</ul>
+	</div>
+</nav>
