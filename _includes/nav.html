@@ -1,26 +1,45 @@
-{% assign url_parts = page.url | split: '/' %}
-{% assign url_parts_size = url_parts | size %}
-{% assign rm = url_parts | last %}
-{% assign base_url = page.url | replace: rm %}
 
 <nav>
 	<div class="large-10 medium-10 column text-center main-menu">
-		<ul>
+<!-- 		<ul>
 		{% for node in site.pages %}
-
-		  {% if node.url contains base_url %}
-		    {% assign node_url_parts = node.url | split: '/' %}
-		    {% assign node_url_parts_size = node_url_parts | size %}
-		    {% assign filename = node_url_parts | last %}
-		    {% if url_parts_size == node_url_parts_size and node.title %}
-		      <li class="bold capitalize"><a href='{{node.url}}'>{{node.title}}</a></li>
-		      {{node_url_parts_size}}
-		    {% endif %}
-		  {% endif %}
+		{% assign url_parts = node.url | split: '/' %}
+		{% assign url_parts_size = url_parts | size %}
+		{% assign parent_node_url = '' %}
+		{% assign emptyArray = [] %}
+			{% if url_parts_size == 3 %}
+				{% assign parent_node_url = url_parts %}
+				{{parent_node_url}}
+			{% endif %}
+			{% if url_parts_size == 2 %}
+				{% if node.title %}		    	
+		      		<li class="bold capitalize"><a href='{{node.url}}'>{{node.title}}</a>
+						<ul class="sub-menu" style="display: inline-block;">
+							<li class="bold capitalize"><a href='{{node.url}}'>{{sub-node.title}}</a>
+						</ul>
+		      		</li>
+		    	{% endif %}
+			{% endif %}
 		{% endfor %}
+
+
 
 		
 
+		</ul> -->
+
+		<ul>
+		  {% assign pages = site.pages | sort: 'weight' %} 
+		  {% for p in pages %}
+		    {% if p.menu == 'main' %}
+		      <li{% if p.url == page.url %} class="active"{% endif %}>
+		         <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
+		      </li>
+		    {% endif %}
+		  {% endfor %}
 		</ul>
+
+
+
 	</div>
 </nav>

@@ -28,6 +28,8 @@ defaults:
     path: ''
   values:
     layout: default_page
+    weight: '10'
+    menu_element: 'main'
 - scope:
     path: ''
     type: team
