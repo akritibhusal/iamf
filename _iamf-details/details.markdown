@@ -1,5 +1,5 @@
 ---
-title: Details
+title: Footer Details
 date: 2016-11-25 07:52:00 Z
 phone_number: "+1 (800) 848-0398"
 email: info@iamdesignfoundation.org
