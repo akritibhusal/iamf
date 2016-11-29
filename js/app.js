@@ -1,6 +1,10 @@
 $(document).ready(function(){
 
-  $('.top-nav').hide();
+if ( window.location.pathname == '/index.html' ){
+    // Index (home) page
+    $('.top-nav').hide();
+
+}  
 	$('#nav-icon3').click(function(){
 		$(this).toggleClass('open');
     $('.top-nav').fadeToggle();
