@@ -12,7 +12,7 @@ collections:
     title: Events
     output: true
   iamf-details:
-    title: IAMF Details
+    title: Footer
     output: true
   posts:
     title: Posts
