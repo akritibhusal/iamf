@@ -261,6 +261,12 @@ header {
     .about .side-menu {
       display: none; } }
 
+.side-menu p{
+  color: #a7a7a7;
+  transition: all 250ms linear;
+  font-size: 22px;
+}
+
 .event {
   padding: 70px 0; }
   .event img {
@@ -284,6 +290,11 @@ header {
       font-size: 20px; }
     .event .side-menu {
       display: none; } }
+
+blockquote{
+  color: #a7a7a7;
+  font-size: 20px;
+}
 
 .contact {
   padding: 70px 0; }
