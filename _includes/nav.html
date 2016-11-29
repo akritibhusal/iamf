@@ -29,15 +29,13 @@
 		</ul> -->
 
 		<ul>
-		  {% assign pages = site.pages %} 
-		  {% for p in pages %}{{ p.menu_element }}
+		  {% assign pages = site.pages %}
 		    {% if p.menu_element == 'main' %}
 		      <li class="active">
 		         <a href="">{{ p.title }}</a>
 		         
 		      </li>
 		    {% endif %}
-		  {% endfor %}
 		</ul>
 
 
