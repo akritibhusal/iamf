@@ -14,6 +14,9 @@ collections:
   iamf-details:
     title: Footer
     output: true
+  posts:
+    title: Posts
+    output: true
   team:
     title: Team
     output: true
