@@ -29,13 +29,21 @@
 		</ul> -->
 
 		<ul>
-		  {% assign pages = site.pages %}
-		    {% if p.menu_element == 'main' %}
+		  {% assign pages = site.pages  %}
+		  {% for p in pages %}
+		    {% if p.menu_element == 'main' and p.title %}
 		      <li class="active">
-		         <a href="">{{ p.title }}</a>
-		         
+		         <a href="" style="font-weight:bold">{{ p.title }}->
+		         {% assign p_url_head = p.url | split:"." %}
+					{% assign p_url_head = p_url_head[0] %}
+		         {{ p_url_head }}
+		         </a>
+		         <ul class="sub-menu">
+		         	<li><a href=""></a></li>
+		         </ul>	         
 		      </li>
 		    {% endif %}
+		    {% endfor %}
 		</ul>
 
 
