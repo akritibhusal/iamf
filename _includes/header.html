@@ -1,5 +1,5 @@
 <!-- Top Navigation -->
-    <nav class="top-nav">
+    <nav class="top-nav {% if page.url != '/index.html' %} top-show {% endif %}">
       <div class="row">
         <div class="large-2 medium-2 small-8 column">
 
@@ -8,7 +8,7 @@
           </div>
 
         </div>
-        <div class="show-for-medium-up large-10 medium-10 column text-center main-menu">
+        <div class="show-for-medium-up large-10 medium-10 column text-right main-menu">
 
           <ul>
             <li class="bold capitalize"><a href="{{ site.url }}/index.html">Home</a></li>
@@ -23,7 +23,7 @@
         </div>
       </div>
     </nav>
-    <div id="nav-icon3" class="nav-icon3">
+    <div id="nav-icon3" class="nav-icon3 {% if page.url != '/index.html' %} show-for-small-only {% endif %}">
       <span></span>
       <span></span>
       <span></span>

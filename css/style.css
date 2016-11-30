@@ -83,6 +83,10 @@ nav {
         nav ul li a:hover {
           color: #000000;
           border-bottom: 1px dashed #000; }
+
+.main-menu {
+  padding-right: 40px;
+}
   nav .main-menu li {
     margin-right: 20px; }
     nav .main-menu li:after {
@@ -177,15 +181,18 @@ nav {
 
 header {
   z-index: 3;
-  padding-top: 160px; }
+  padding-top: 140px; }
+  header h1 {
+    line-height: 50px;
+  }
   header .padding-bottom {
-    padding-bottom: 15px; }
+    padding-bottom: 26px; }
   header .no-padding {
     padding-bottom: 0; }
   header .no-margin {
     margin-bottom: 0; }
   header .margin-bottom {
-    margin-bottom: 30px; }
+    margin-bottom: 70px; }
   header .logo {
     width: 120px; }
   header .arrow {
@@ -195,13 +202,14 @@ header {
       font-size: 20px; } }
 
 .intro {
-  padding-top: 150px;
+  padding-top: 250px;
   padding-bottom: 80px; }
-  .intro h1, .intro p {
+  .intro h1, .intro h2 {
     line-height: 1; }
   @media screen and (max-width: 39.9375em) {
     .intro h2 {
-      font-size: 20px; } }
+      font-size: 20px;
+      line-height: 40px; } }
 
 .gradient-fix{
   z-index: -1;
@@ -218,7 +226,7 @@ header {
 .default_page {
   padding: 70px 0; }
   .about .margin-bottom {
-    margin-bottom: 30px; }
+    margin-bottom: 40px; }
   .about h1.team-members {
     line-height: 1;
     margin-bottom: 15px; }
@@ -240,8 +248,7 @@ header {
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed; }
-  .about .margin-bottom {
-    margin-bottom: 30px; }
+  
   .about h1.team-members {
     line-height: 1;
     margin-bottom: 15px; }
@@ -394,4 +401,36 @@ footer {
    -webkit-animation: doscroll 2s infinite linear;
    animation: doscroll 2s infinite linear;
    position: absolute;
+   transform: translateX(-50%);
  }
+
+ .top-nav{
+  top: -100px;
+  transition: all 300ms ease-in-out;
+  position: relative;
+ }
+
+ .top-show{
+  top:0;
+ }
+
+ footer p{
+  margin-bottom: 6px;
+ }
+
+ footer .horizontal-line{
+  margin-top: 20px;
+ }
+
+ footer .social-icon{
+  font-size: 28px !important;
+ }
+
+ .large-text {
+  font-size: 66px;
+ }
+
+ .about-text{
+  font-size: 22px;
+ }
+
