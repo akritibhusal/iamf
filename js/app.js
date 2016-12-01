@@ -1,5 +1,8 @@
 $(document).ready(function(){
 
+// if ( window.location.pathname == '/' || window.location.pathname == '/index.html'){
+//     $('.top-nav').removeClass('top-show');
+// }
  
 	$('#nav-icon3').click(function(){
 		$(this).toggleClass('open');

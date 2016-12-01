@@ -1,5 +1,9 @@
 <!-- Top Navigation -->
-    <nav class="top-nav {% if page.url != '/index.html' %} top-show {% endif %}">
+<!-- {% assign current = 'top-nav top-show' %}
+{% if page.url == '/'or page.url == '/index.html' %}
+  {% assign current = 'top-nav' %}
+{% endif %} -->
+    <nav class="top-nav {% if page.layout != 'home' %} top-show {% endif %}">
       <div class="row">
         <div class="large-2 medium-2 small-8 column">
 
@@ -23,7 +27,7 @@
         </div>
       </div>
     </nav>
-    <div id="nav-icon3" class="nav-icon3 {% if page.url != '/index.html' %} show-for-small-only {% endif %}">
+    <div id="nav-icon3" class="nav-icon3">
       <span></span>
       <span></span>
       <span></span>
