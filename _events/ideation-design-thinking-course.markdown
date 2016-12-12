@@ -2,7 +2,7 @@
 title: 'Ideation: Design Thinking Course'
 date: 2016-11-25 10:48:00 Z
 image: "/uploads/ibionics.png"
-eventdate: October 18, 2016, 6:30–10:30PM
+event_date: 
 venue: The Idea Center, 315 NE 2nd Ave, Miami, FL 33132, USA
 external_url: http://theideacenter.co/
 ---

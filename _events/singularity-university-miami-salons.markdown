@@ -2,7 +2,7 @@
 title: Singularity University Miami Salons
 date: 2016-11-25 10:45:00 Z
 image: "/uploads/singularity.png"
-eventdate: October 19th, 2016, 7:00PM
+event_date: 
 venue: Miami Theatre Center
 external_url: http://www.singularityumiamisalon.com/
 ---

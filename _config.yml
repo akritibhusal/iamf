@@ -58,7 +58,7 @@ defaults:
   values:
     title: ''
     image: ''
-    eventdate: ''
+    event_date: ''
     venue: ''
     external_url: ''
 email: your-email@domain.com

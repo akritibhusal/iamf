@@ -2,7 +2,7 @@
 title: Nature's Inventions and Industrial Innovations
 date: 2016-11-25 10:34:00 Z
 image: "/uploads/shell.jpg"
-eventdate: Thursday, November 10, 2016 / 7:00 PM – 8:00 PM
+event_date: 
 venue: Venture Cafe (CIC Miami, 1951 NW 7th Ave, Miami, FL, 33136)
 external_url: http://motsummit.com/
 ---

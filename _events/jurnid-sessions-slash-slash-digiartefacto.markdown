@@ -2,7 +2,7 @@
 title: Jurnid Sessions// Digiartefacto
 date: 2016-11-25 10:59:00 Z
 image: "/uploads/Digiartefacto.png"
-eventdate: Wednesday, August 31, 2016 6:00 PM to 8:00 PM
+event_date: 
 venue: |-
   Miami Center for Architecture & Design,
   100 NE 1st Ave, Miami, FL 33132

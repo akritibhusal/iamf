@@ -2,7 +2,7 @@
 title: Creativity Society Event
 date: 2016-11-25 10:40:00 Z
 image: "/uploads/paraguay.png"
-eventdate: October 20th-22th, 2016
+event_date: 
 venue: Asunción and Caacupé, Paraguay
 external_url: https://eventos.paraguay.gov.py/sociedaddelacreatividad/
 ---

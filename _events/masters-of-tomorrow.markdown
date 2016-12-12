@@ -2,7 +2,7 @@
 title: Masters of Tomorrow
 date: 2016-11-25 09:57:00 Z
 image: "/uploads/mot.png"
-eventdate: November 30, 2016
+event_date: 
 venue: LAB Miami
 external_url: https://www.facebook.com/MOTSummit/
 ---
