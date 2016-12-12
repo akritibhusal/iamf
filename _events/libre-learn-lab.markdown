@@ -2,7 +2,7 @@
 title: Libre Learn Lab
 date: 2016-11-25 10:50:00 Z
 image: "/uploads/lll_0.png"
-event_date: 
+event_date: 2016-10-08 00:00:00 Z
 venue: Sloan School of Management at MIT in Cambridge, Massachusetts
 external_url: https://librelearnlab.org/
 ---
