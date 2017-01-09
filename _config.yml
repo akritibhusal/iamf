@@ -1,6 +1,6 @@
 ---
-title: IAMF
-timezone: UTC
+title: I AM FOUNDATION
+timezone: America/New_York
 collections:
   advisory-board:
     title: Advisory Board
@@ -61,7 +61,7 @@ defaults:
     event_date: ''
     venue: ''
     external_url: ''
-email: your-email@domain.com
+email: hello@iamfoundation.org
 description: "\n"
 baseurl: 
 url: 
