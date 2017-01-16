@@ -1,6 +1,6 @@
 ---
-title: Footer Details
-date: 2016-11-25 07:52:00 Z
+title: Contact Details
+date: 2016-11-25 02:52:00 -05:00
 phone_number: "+1 (800) 848-0398"
 email: info@iamdesignfoundation.org
 facebook_url: https://www.facebook.com/IndustrialArtsMethod
