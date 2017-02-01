@@ -1,9 +1,9 @@
 ---
 title: MIA 2040
-date: 2017-01-16 15:44:00 -05:00
+date: 2017-03-04 15:44:00 -05:00
 permalink: mia-2040
-published: false
-image: "/uploads/images.jpeg"
+image: "/uploads/evanimages_Page_2_Image_0001.png"
+event_date: 2017-03-04 00:00:00 -05:00
 venue: CIC
 ---
 
