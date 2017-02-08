@@ -1,8 +1,15 @@
 ---
 title: MIA 2040
-date: 2017-03-04 15:44:00 -05:00
+date: 2017-02-01 15:44:00 -05:00
 permalink: mia-2040
-image: "/uploads/evanimages_Page_2_Image_0001.png"
+published: false
+tags:
+- climate change
+- global warming
+- data science
+- workshop
+- miami
+image: "/uploads/miami2040.png"
 event_date: 2017-03-04 00:00:00 -05:00
 venue: CIC
 ---
