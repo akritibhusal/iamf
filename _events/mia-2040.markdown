@@ -3,6 +3,8 @@ title: MIA 2040
 date: 2017-02-01 15:44:00 -05:00
 permalink: mia-2040
 published: false
+categories:
+- workshops
 tags:
 - climate change
 - global warming
